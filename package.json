@@ -1,0 +1,27 @@
+{
+  "name": "wdio-training",
+  "version": "1.0.0",
+  "description": "webdriverio automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "emwu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@wdio/browser-runner": "^8.29.7",
+    "@wdio/cli": "^8.29.7",
+    "@wdio/mocha-framework": "^8.29.3",
+    "@wdio/spec-reporter": "^8.29.7",
+    "chromedriver": "^121.0.0",
+    "react": "^18.2.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
